@@ -1,0 +1,1 @@
+python src/train/train_no_history.py
