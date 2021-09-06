@@ -61,6 +61,7 @@ https://algo.weixin.qq.com/
 * new date：date%7，相当于引入星期的概念
 * 复赛令人幸喜的是基本没啥过拟合，因此在最后B榜的时候排名涨一截，猜想是没有用word2vec以及minmaxscale与labelencoder都保存下来的原因，因此对于数据的放缩与labelencoder在训练与推理是一致的
 * mmoe:在复赛的时候只使用mmoe,进行了大量的调参尝试,最后感觉有用的也就是embedding='auto'
+* 模型融合：使用之前比赛的融合方式，0.5 * 几何平均 + 0.5 * 算数平均
 
 
 #### 【其他尝试】
